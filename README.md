@@ -17,3 +17,28 @@ The backend follows the MVC architecture and uses JWT-based authentication for s
 - Dashboard & Reports
 - RESTful APIs
 - MySQL Database Integration
+
+## 🛠️ Tech Stack
+
+### Backend
+- Java 21
+- Spring Boot
+- Spring MVC
+- Spring Security
+- Spring Data JPA
+- Hibernate
+
+### Database
+- MySQL
+
+### Authentication
+- JWT (JSON Web Token)
+
+### Build Tool
+- Maven
+
+### Version Control
+- Git & GitHub
+
+### IDE
+- Visual Studio Code
