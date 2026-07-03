@@ -66,3 +66,58 @@ src
 │       └── application.properties
 └── test
 ```
+
+## 🏗️ System Architecture
+
+```text
+                    React Frontend
+                          │
+                          │ REST API (HTTP)
+                          ▼
+               Spring Boot Controllers
+                          │
+                          ▼
+                   Service Layer
+                          │
+                          ▼
+                 Repository Layer
+                          │
+                          ▼
+                    MySQL Database
+```
+
+### Architecture Flow
+
+1. The user interacts with the React frontend.
+2. The frontend sends HTTP requests to the Spring Boot REST APIs.
+3. Controllers receive and validate requests.
+4. The Service layer contains the business logic.
+5. The Repository layer communicates with the MySQL database using Spring Data JPA.
+6. JWT Authentication secures protected API endpoints.
+
+## 📡 REST API Modules
+
+| Module | Description |
+|--------|-------------|
+| Authentication | User registration and login using JWT |
+| Users | Manage user information |
+| Vendors | Add, update, delete, and view vendors |
+| Wedding Packages | Manage wedding packages |
+| Bookings | Create, view, confirm, and cancel bookings |
+| Dashboard | View dashboard statistics |
+| Reports | Generate application reports |
+
+### HTTP Methods Used
+
+- GET – Retrieve data
+- POST – Create new records
+- PUT – Update existing records
+- DELETE – Remove records
+
+## 🔐 Security Features
+
+- JWT (JSON Web Token) based authentication
+- Role-Based Authorization (Admin, Vendor, User)
+- Protected REST API endpoints using Spring Security
+- Password encryption for secure user authentication
+- Secure API access using Authorization Bearer Token
