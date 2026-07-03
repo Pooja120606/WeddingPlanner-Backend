@@ -121,3 +121,42 @@ src
 - Protected REST API endpoints using Spring Security
 - Password encryption for secure user authentication
 - Secure API access using Authorization Bearer Token
+
+## 🗄️ Database Design
+
+The application uses **MySQL** as the relational database.
+
+### Main Tables
+
+| Table | Purpose |
+|--------|---------|
+| User | Stores user information and roles |
+| Vendor | Stores vendor details and services |
+| WeddingPackage | Stores wedding package information |
+| Booking | Stores booking details and booking status |
+
+The backend uses **Spring Data JPA** and **Hibernate** for database operations.
+
+## 🚀 Future Enhancements
+
+- 💳 Online Payment Gateway Integration
+- 📧 Email Notifications
+- 📱 SMS Notifications
+- ⭐ Vendor Ratings & Reviews
+- 🤖 AI-based Wedding Package Recommendations
+- 💬 Live Chat Support
+- 📅 Calendar & Event Scheduling
+- ☁️ Cloud Deployment (AWS/Azure)
+
+## 👩‍💻 Author
+
+**Pooja Enugandula**
+
+- 🎓 B.Sc. Information Technology
+- 💼 Aspiring Java Backend Developer
+- 🔗 LinkedIn: https://www.linkedin.com/in/pooja-enugandula/
+- 💻 GitHub: https://github.com/Pooja120606
+
+---
+
+⭐ If you like this project, consider giving it a star!
