@@ -42,3 +42,27 @@ The backend follows the MVC architecture and uses JWT-based authentication for s
 
 ### IDE
 - Visual Studio Code
+
+## 📂 Project Structure
+
+```text
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── wedding
+│   │           └── weddingplanner
+│   │               ├── controller
+│   │               ├── dto
+│   │               ├── enums
+│   │               ├── model
+│   │               ├── repository
+│   │               ├── security
+│   │               ├── service
+│   │               └── WeddingplannerApplication.java
+│   └── resources
+│       ├── static
+│       ├── templates
+│       └── application.properties
+└── test
+```
