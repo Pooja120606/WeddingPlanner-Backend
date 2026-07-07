@@ -122,6 +122,32 @@ src
 - Password encryption for secure user authentication
 - Secure API access using Authorization Bearer Token
 
+⚙ Local Development Setup
+Prerequisites
+Java 21
+Maven
+MySQL
+IntelliJ IDEA
+Postman
+Clone
+git clone https://github.com/Pooja120606/WeddingPlanner-Backend.git
+Database
+CREATE DATABASE weddingplanner;
+Configure
+application.properties
+
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+jwt.secret=
+Run
+mvn spring-boot:run
+
+Runs on
+
+http://localhost:8080
+
 ## 🗄️ Database Design
 
 The application uses **MySQL** as the relational database.
