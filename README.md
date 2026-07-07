@@ -124,22 +124,22 @@ src
 
 ## ⚙ Local Development Setup
 
-# Prerequisites
+## Prerequisites
  - Java 21
  - Maven
  - MySQL
  - IntelliJ IDEA
  - Postman
 
-# Clone
+## Clone
 
 git clone https://github.com/Pooja120606/WeddingPlanner-Backend.git
 
-# Database
+## Database
 
 CREATE DATABASE weddingplanner;
 
-# Configure
+## Configure
 
 application.properties
 
@@ -149,7 +149,7 @@ spring.datasource.password=
 
 jwt.secret=
 
-# Run
+## Run
 
 mvn spring-boot:run
 
